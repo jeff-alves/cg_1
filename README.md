@@ -9,6 +9,7 @@ instalar "pipenv" no seu linux, navegar ate a pasta do projeto e rodar:
     pipenv update
     pipenv run python trabalho1.py
 
-
 ### Resultado:
-![Resultado](resultado.png)
+
+![img](resultado.png)
+![gif](test.gif)
