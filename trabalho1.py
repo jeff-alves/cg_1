@@ -5,16 +5,13 @@ from OpenGL.GLUT import *
 name = 'Primeiro Programa'
 LARGURA = 500
 ALTURA = 500
-    
+
 def linhas():
     glLineWidth(2.0)
-    glBegin(GL_LINES)
+    glBegin(GL_LINE_STRIP)
     glColor3f(0.9, 0.9, 0.9)
     glVertex2i(130, 180)
     glColor3f(0.0, 0.0, 1.0)
-    glVertex2i(400, 400)
-    glEnd()
-    glBegin(GL_LINES)
     glVertex2i(400, 400)
     glColor3f(0.7, 0.0, 0.0)
     glVertex2i(250, 0)
@@ -39,7 +36,7 @@ def losango():
     glEnd()
 
 def quadrado():
-    glBegin(GL_POLYGON)
+    glBegin(GL_QUADS)
     glColor3f(1.0, 0.0, 0.0)
     glVertex2i(250, 250)
     glColor3f(0.0, 0.0, 0.0)
